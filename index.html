@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Spectral:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        
+        body {
+            /* Element, font-family: untuk memanggil atau menggunakan font yang di panggil sebelumnya */
+            font-family: 'Rubik', sans-serif;
+        }
+        
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        
+        .profile {
+            /* Element, posisition: membuat object bebas di tata letak. */
+            position: absolute;
+
+            /* Element, top / left: mengatur margin pada setiap sisi objek yang sudah absolute / bebas di posisikan. */
+            top: 30px;
+            left: 3%;
+
+            /* Element, width / height: mengatur ukuran object dan dapat dikombinasikan keduanya. */
+            width: 70px;
+            height: 70px;
+
+            /* Element, Border-radius: membuat sisi foto tumpul setiap sisi. */
+            border-radius: 50%;
+
+            /* Element, Object-fit: membuat objek foto menyesuaikan border element yang telah dibuat.*/
+            object-fit: cover;
+            
+            /* Element, box-shadow: dipakai buat bikin efek bayangan pada
+             elemen biar kelihatan timbul, ngambang, atau berkesan 3D. */
+            box-shadow: 5px, 10px, 10px, 0 rgb(54, 55, 55);
+        }
+        .HeadLine {
+            text-align: center;
+            /* Element, Color: membuat teks menjadi warna yang diinginkan */
+            /* color: dodgerblue; */
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+
+        .Location {
+            text-align: center;
+            /* color: dodgerblue; */
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+       .History {
+            text-align: justify;
+            /* color: dodgerblue; */
+            margin-top: 60px;
+       }
+
+       .ParagrafhBioData1 {
+        text-align: justify;
+        word-wrap: break-word;
+       }
+
+       .ParagrafhBioData2 {
+        text-align: justify;
+        word-wrap: break-word;
+       }
+
+       .ParagrafhBioData3 {
+        text-align: justify;
+        word-wrap: break-word;
+       }
+
+    </style>
+    <title>Curiculum Vitae</title>
+</head>
+
+<body>
+
+    <!-- DIBAWAH INI HEADER -->
+    <header>
+        
+        <div style="display: flex; align-items: center; justify-content: space-between;">
+    <!-- Foto profil -->
+    <img src="Profile1.png" alt="Foto Profil" 
+         style="width: 80px; height: 80px; border-radius: 50%; margin: 20px;">
+
+    <!-- Nama dan posisi -->
+    <div style="text-align: center; margin-right: 10px;">
+      <h1 style="color: dodgerblue; margin: 0;">Umar Ramadhan</h1>
+      <h5 style="color: dodgerblue; margin: 0;">Graphic Designer / Multimedia Specialist / Visual Communicator</h5>
+    </div>
+    </div>
+    </header>
+    
+    <section>
+    <div class="box">
+
+        <!-- DIBAWAH INI DATA DIRI -->
+    <h3 class="History">Tentang Saya</h3>
+
+        <!-- DIBAWAH INI ISI DATA DIRI -->
+     <p class="ParagrafhBioData1">
+     Saya Umar Ramadhan lulusan dari SMK Pgri 2 Cibinong 
+     program studi Multimedia. Berminat melamar pada bidang
+     desain grafis, selama berpengalaman 3 tahun sebagai
+     desain grafis melalui freelance dan otodidak. Menguasai
+     tools Adobe Creative Suite ( Ilustrator, Photoshop,  After
+     Effect, dan Premiere pro), UI/UX dan Kamera. Saya yakin
+     bahwa kontribusi saya dapat membantu perusahaan anda
+     terus berkembang dan mencapai tujuan dalam
+     menyediakan konten yang edukatif, informatif, dan sesuai
+     dengan audience.</p>
+     
+    </div>
+
+    <div class="box">
+        <!-- DIBAWAH INI BIO DATA -->
+        <h3 class="BioData">Informasi Pribadi</h3>
+
+        <!-- DIBAWAH INI ISI BIO DATA -->
+        <p class="ParagrafhBioData2">
+            <strong>Nama</strong>        :   Umar Ramadhan
+            <br>
+            <strong>No telp</strong>     :   (+62) 895 - 2512 - 1811
+            <br>
+            <strong>Email</strong>       :   umarramadhan10@gmail.com
+            <br>
+            <strong>Lokasi </strong>     :   Jogja, Jawa Tengah
+            <br>
+            <strong>Portofolio</strong>  :   https://sites.google.com/view/umarramadhan/halaman-muka
+        </p>
+    </div>
+
+    <div class="box">
+
+        <!-- DIBAWAH INI KEAHLIAN -->
+    <h3 class="Skill">Keahlian</h3>
+
+        <!-- DIBAWAH INI ISI KEAHLIAN -->
+     <p class="ParagrafhBioData3">
+        <strong>Desain grafis</strong>   :   Adobe Photoshop, Adobe Ilustrator, Corel Draw, Canva, Adobe Indesign, Adobe Lightroom.
+        <br>
+        <strong>Video editing</strong>   :   Adobe After Effect, Adobe Premiere Pro, Capcut, Filmora.
+        <br>
+        <strong>Pendataan</strong>      :   Word dan Excel.
+        <br>
+        <strong>Keahlian Interpersonal</strong>      :   Branding dan identitas visual, Komunikasi kreatif, Manajemen waktu dan project.
+        <br>
+        <strong>Keahlian Spesifik</strong>      :   Figma (UI), Vscode basic Html dan Css (UX).
+    </p>
+
+    </div>
+    
+    <div class="box">
+
+        <!-- DIBAWAH INI PENGALAMAN -->
+      <h3 class="pengalaman">Pengalaman</h3>
+
+        <!-- DIBAWAH INI ISI PENGALAMAN -->
+      <p>
+        <strong>Magang - Quality Assurance (QA & Marketing)</strong><br>
+        PT. Astra Komponen Indonesia (ASKI)<br>
+        Januari 2024 - April 2024<br>
+        - Mendukung kebutuhan desain internal seperti revisi visual dokumen, laporan, presentasi, flyer acara, promosi poster.<br>
+        - Menyelesaikan tugas dengan akurat dan sesuai standar perusahaan.<br>
+        - Terbiasa bekerja di bawah tekanan dan deadline yang ketat.<br>
+        <br>
+        <strong>Daily Worker Waiter – Resto Lembur Kuring</strong><br>
+        Desember 2023 - Januari 2024<br>
+        - Melayani pelanggan dengan sopan dan efisien.<br>
+        - Menangani pesanan dan membantu dapur dalam jam sibuk.<br>
+        <br>
+        <strong>Freelance – Shopee Express Gudang (Depok)</strong><br>
+        Oktober 2024 - Januari 2025<br>
+        - Menyortir dan memindahkan paket sesuai rute pengiriman.<br>
+        - Menjaga keakuratan dan kecepatan dalam proses sortir.
+      </p>
+     
+    </div>
+
+    <div class="box">
+
+        <!-- DIBAWAH INI SERTIFIKAT -->
+      <h3 class="pengalaman">Sertifikasi</h3>
+
+        <!-- DIBAWAH INI ISI SERTIFIKAT -->
+      <p>
+        – Sertifikat Magang PKL PT. Astra Komponen Indonesia (QA & Marketing), 2024.
+        <br>
+        – Sertifikat Kompetensi Junior Operator Audio Visual (SMK).
+      </p>
+     
+    </div>
+    
+    <div>  <!-- DIBAWAH INI RIWAYAT PENDIDIKAN -->
+      <h3 class="Pendidikan" >Pendidikan</h3>
+    </div>
+
+    <div class="box" style="display: flex; align-items: center; margin: 10px;">
+
+      <img src="logo gocir.png" alt="logo gocir" width="100px" height="100px" style="margin: 5px;">
+        <!-- DIBAWAH INI ISI PENDIDIKAN-->
+      <p style="margin: 0;">
+         <strong>SMK PGRI 2 CIBINONG</strong>
+         <br>
+         <small>Multimedia</small>
+         <br>
+         <small>2022-2025</small>
+      </p>
+     
+    </div>
+
+    </section>
+</body>
+</html>
